@@ -168,8 +168,36 @@
     height: 45px;
     top: 70px;
 }
+/* from style  */
+.form-main{
+    max-width: 1140px;
+    height: 632px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    border: 3px solid red;
+    padding: 71px 0px;
+    gap: 100px;
+}
 
+.footer-btn{
+    
+}
 
+.from-title{
+    max-width: 528px;
+    height: 232px;
+    color: rgba(0, 0, 0, 1);
+    font-size: 97;
+    border: 2px solid hotpink;
+}
+
+.form-info{
+    max-width: 497px;
+    height: 490px;
+    border: 2px solid red;
+}
 
 /* Footer style */
 .footer-container{
