@@ -170,34 +170,100 @@
 }
 /* from style  */
 .form-main{
-    max-width: 1140px;
-    height: 632px;
+    max-width: 1040px;
+    height: 332px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin: 0 auto;
-    border: 3px solid red;
+    margin-top: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: -100px;
     padding: 71px 0px;
     gap: 100px;
+    gap: 20px;
+    position: relative;
 }
 
-.footer-btn{
-    
-}
+
 
 .from-title{
     max-width: 528px;
-    height: 232px;
+    height: 132px;
     color: rgba(0, 0, 0, 1);
-    font-size: 97;
-    border: 2px solid hotpink;
+    font-size: 40px;
+    position: absolute;
+    left: 0px;
+    top: 120px;
+    display: block;
+    justify-content: center;
+    align-items: center;
+    margin-left: 100px;
+}
+
+.form-info-main{
+    /* position: relative; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    gap: 10px;
+    max-width: 497px;
+    height: 10px;
+    margin-left: auto;
 }
 
 .form-info{
+    /* position: absolute;
+    left: 0px; */
+    gap: 20px;
+    padding: 10px;
+    margin: 10px;
     max-width: 497px;
-    height: 490px;
-    border: 2px solid red;
+
 }
+
+/* .form-info label input{
+    display: flex;
+    gap: 5px;
+    
+} */
+
+.form-info label{
+    display: flex;
+    gap: 1px;
+    margin-bottom: -15px;
+}
+
+.inp-ut{
+    border: none;
+    border-radius: 10px;
+    padding: 15px 58px;
+    display: flex;
+    gap: 1px 12px;
+    background-color: rgba(255, 255, 255, 1);
+    color: rgba(0, 0, 0, 0.5);
+    max-width: 420px;
+}
+
+.txtarea{
+    border: none;
+    border-radius: 10px;
+    padding: 20px 32px;
+    background-color: rgba(255, 255, 255, 1);
+    /* max-width: 420px; */
+}
+
+.footer-btn{
+    color: rgba(255, 255, 255, 1);
+    background-color: rgba(78, 71, 255, 1);
+    border: none;
+    border-radius: 10px;
+    padding: 19px 102px;
+    height: 50px;
+    display: block;
+    font-size: 15px;margin-top: 10px;
+}
+
 
 /* Footer style */
 .footer-container{
@@ -253,3 +319,4 @@
     background: navajowhite;
     border-radius: 5px;
 }
+
