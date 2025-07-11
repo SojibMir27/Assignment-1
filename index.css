@@ -181,6 +181,54 @@ body{
     top: 70px;
 }
 
+/* Fucus section style */
+.focus-container{
+    max-width:890px;
+    height: 496.77px;
+    display: flex;
+    margin: 150px auto 260px;
+    padding: 71px 150px;
+    background-color: #f6efef;
+    border-radius: 30px;
+    border: 1px solid #e9dcdc;
+}
+
+.heading-title{
+    text-align: center;
+    align-items: center;
+}
+
+.heading-title h1{
+    font-size: 50px;
+    color: #000000;
+    margin-bottom: 20px;
+}
+
+.heading-title p{
+    color: rgba(0, 0, 0, 0.5)
+}
+.heading-title button{
+    background-color: #4E47FF;
+    color: #FFFFFF;
+    border-radius: 10px;
+    font-weight: bold;
+    margin-top: 20px;
+    padding: 12px 36px;
+    border: none;
+}
+
+.heading-title button:hover{
+    background-color: hotpink;
+    color: black;
+    transition: 0.5s;
+    cursor: pointer;
+}
+
+.heading-title img{
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
 /* Product review section style */
 .review-container{
     max-width: 1040px;
