@@ -63,7 +63,8 @@ body{
     transition: 0.5s;
     cursor: pointer;
 }
-/* headline section style */
+
+/* Headline section style */
 .heading-container{
     max-width: 905px;
     height: 237px;
@@ -79,7 +80,6 @@ body{
 .heading-title h1{
     font-size: 65px;
     color: #252432;
-    
 }
 .heading-title button{
     background-color: #4E47FF;
@@ -97,7 +97,8 @@ body{
     transition: 0.5s;
     cursor: pointer;
 }
-/* main section style */
+
+/* Main section style */
 .main-content{
     display: flex;
     justify-content: space-between;
@@ -105,7 +106,6 @@ body{
     max-width: 1140px;
     height: 328px;
     margin: 0 auto;
-
 }
 
 .left-side{
@@ -150,12 +150,10 @@ body{
 .box1{
     max-width: 162px;
     height: 97px;
-
 }
 .box2{
     max-width: 162px;
     height: 97px;
-
 }
 .box3{
     max-width: 162px;
@@ -183,7 +181,7 @@ body{
     top: 70px;
 }
 
-/* product review style */
+/* Product review section style */
 .review-container{
     max-width: 1040px;
     height: 300px;
@@ -251,7 +249,7 @@ body{
     margin-top: 20px;
 }
 
-/* from style  */
+/* From section style  */
 .form-main{
     max-width: 1040px;
     height: 332px;
@@ -352,13 +350,11 @@ body{
     justify-content: center;
     align-items: center;
     padding-top: 80px;
-
 }
 
 .footer-box{
     max-width: 531px;
     height: 201px;
-
 }
 
 .tagh1{
@@ -379,6 +375,7 @@ body{
     align-items: center;
     position: relative;
 }
+
 .box-2 ul li{
     list-style: none;
     display: inline;
